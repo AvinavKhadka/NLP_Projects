@@ -7,7 +7,7 @@ import pyaudio
 import time
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
-
+#
 model = tf.keras.models.load_model('speech_model.h5')
 speech_commands = ['yes', 'no', 'up', 'down', 'left', 'right', 'on', 'off', 'stop', 'go']
 
